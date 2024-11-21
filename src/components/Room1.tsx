@@ -27,7 +27,7 @@ const ImageShaderMaterial = shaderMaterial(
   void main() {
     vec2 uv = vUv;
     uv.y += sin(uv.x * 10.0 + time) * 0.1 * hover;
-    gl_FragColor = texture2D(texture, uv);
+    gl_FragColor = texture2D(texture, uv);1
   }
   `
 );
